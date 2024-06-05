@@ -18,7 +18,7 @@ In this project, I created a break timer application using Python's Tkinter libr
 - __Canvas:__ Utilized a Canvas widget to display images and text. This was particularly useful for creating a visually appealing timer display.
 - __Buttons:__ Added Button widgets to start and reset the timer, associating them with command functions to handle user interactions.
 - __Grid Layout:__ Employed the __grid()__ method to place widgets in specific rows and columns. This helped in organizing the layout effectively.
-
+  - Note: Pack() would put everything together, so it would display but not with grid(). Is either this or that.. or it won't work
 **Timer Mechanism**
 - __Global Variables:__ Used global variables to track the number of repetitions (reps) and manage the timer state.
 - __Timer Logic:__ Implemented the core timer functionality using a combination of methods:
