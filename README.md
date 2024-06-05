@@ -10,26 +10,26 @@ In this project, I created a break timer application using Python's Tkinter libr
 
 ## Key Learnings
 **TKinter Basics**
-- Creating a Window: Used Tk() to initialize the main application window.
-- Setting Window Properties: Configured the window title, size, and background color using methods like title(), minsize(), and config().
+- __Creating a Window:__ Used __Tk()__ to initialize the main application window.
+- __Setting Window Properties:__ Configured the window title, size, and background color using methods like __title()__, __minsize()__, and __config()__.
 
 **Widgets and Layout**
-- Labels: Used Label widgets to display static text and dynamic countdowns. Learned to customize labels with different fonts, colors, and alignments.
-- Canvas: Utilized a Canvas widget to display images and text. This was particularly useful for creating a visually appealing timer display.
-- Buttons: Added Button widgets to start and reset the timer, associating them with command functions to handle user interactions.
-- Grid Layout: Employed the grid() method to place widgets in specific rows and columns. This helped in organizing the layout effectively.
+- __Labels:__ Used Label widgets to display static text and dynamic countdowns. Learned to customize labels with different fonts, colors, and alignments.
+- __Canvas:__ Utilized a Canvas widget to display images and text. This was particularly useful for creating a visually appealing timer display.
+- __Buttons:__ Added Button widgets to start and reset the timer, associating them with command functions to handle user interactions.
+- __Grid Layout:__ Employed the __grid()__ method to place widgets in specific rows and columns. This helped in organizing the layout effectively.
 
 **Timer Mechanism**
-- Global Variables: Used global variables to track the number of repetitions (reps) and manage the timer state.
-- Timer Logic: Implemented the core timer functionality using a combination of methods:
-  - count_down(): A recursive function to handle the countdown logic, updating the timer display every second.
-  - start_timer(): Managed the work and break intervals, updating the label to reflect the current session (work, short break, long break).
-  - reset_timer(): Stopped the current timer, reset the display, and cleared any progress marks.
+- __Global Variables:__ Used global variables to track the number of repetitions (reps) and manage the timer state.
+- __Timer Logic:__ Implemented the core timer functionality using a combination of methods:
+  - __count_down():__ A recursive function to handle the countdown logic, updating the timer display every second.
+  - __start_timer():__ Managed the work and break intervals, updating the label to reflect the current session (work, short break, long break).
+  - __reset_timer():__ Stopped the current timer, reset the display, and cleared any progress marks.
 
 **Advanced Tkinter Usage**
-- Dynamic Label Updates: Learned to update label text dynamically using the config() method.
-- Canvas Updates: Used itemconfig() to change the text on a Canvas widget during the countdown.
-- Callbacks and Timing: Leveraged window.after() to create non-blocking delays for the countdown function, allowing the GUI to remain responsive.
+- __Dynamic Label Updates:__ Learned to update label text dynamically using the __config()__ method.
+- __Canvas Updates:__ Used __itemconfig()__ to change the text on a Canvas widget during the countdown.
+- __Callbacks and Timing:__ Leveraged __window.after()__ to create non-blocking delays for the countdown function, allowing the GUI to remain responsive.
 
 
 
